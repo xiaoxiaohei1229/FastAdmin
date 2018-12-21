@@ -1,0 +1,23 @@
+[ 2018-12-20T16:35:45+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004884s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-20T16:35:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'testtwo' [ RunTime:0.009111s ]
+[ 2018-12-20T16:35:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_testtwo' [ RunTime:0.001843s ]
+[ 2018-12-20T16:36:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-20T16:36:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'student' [ RunTime:0.001798s ]
+[ 2018-12-20T16:36:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_student' [ RunTime:0.001544s ]
+[ 2018-12-20T16:36:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_student' ORDER BY ORDINAL_POSITION [ RunTime:0.003659s ]
+[ 2018-12-20T16:51:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-20T16:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'student' [ RunTime:0.002044s ]
+[ 2018-12-20T16:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_student' [ RunTime:0.001179s ]
+[ 2018-12-20T16:51:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_student' ORDER BY ORDINAL_POSITION [ RunTime:0.001548s ]
+[ 2018-12-20T17:10:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-20T17:10:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-20T17:10:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002936s ]
+[ 2018-12-20T17:10:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-20T17:10:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-20T17:10:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002704s ]
+[ 2018-12-20T17:11:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-20T17:11:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-20T17:11:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006824s ]
