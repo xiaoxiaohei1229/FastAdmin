@@ -1,0 +1,27 @@
+[ 2018-12-21T15:04:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002978s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-21T15:04:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-21T15:04:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003943s ]
+[ 2018-12-21T15:04:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-12-21T15:04:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010333s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-21T15:04:41+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.003999s ]
+[ 2018-12-21T15:04:41+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.042588s ]
+[ 2018-12-21T15:04:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'test' LIMIT 1 [ RunTime:0.011940s ]
+[ 2018-12-21T15:04:41+08:00 ][ sql ] [ SQL ] SHOW CREATE TABLE `fa_test`; [ RunTime:0.005782s ]
+[ 2018-12-21T15:08:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-21T15:08:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-21T15:08:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003093s ]
+[ 2018-12-21T15:08:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-12-21T15:08:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-21T15:08:47+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000285s ]
+[ 2018-12-21T15:09:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ LOG ] INIT File
+[ 2018-12-21T15:09:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-12-21T15:09:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006292s ]
+[ 2018-12-21T15:09:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-12-21T15:09:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-12-21T15:09:08+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000277s ]
+[ 2018-12-21T15:09:08+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001724s ]
+[ 2018-12-21T15:09:08+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'test' LIMIT 1 [ RunTime:0.000490s ]
+[ 2018-12-21T15:09:08+08:00 ][ sql ] [ SQL ] SHOW CREATE TABLE `fa_test`; [ RunTime:0.000326s ]
